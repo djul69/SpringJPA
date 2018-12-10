@@ -1,4 +1,6 @@
 /target/
+/.mvn/
+/.mvnold/
 
 ### STS ###
 .apt_generated
