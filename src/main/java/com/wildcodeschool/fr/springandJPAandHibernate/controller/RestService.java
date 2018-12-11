@@ -17,9 +17,6 @@ public class RestService {
     @Autowired
     private UserDao userDao;
 
-    public void SaveUser() {
-
-    }
 
     @GetMapping("/users")       //requete en GET http://localhost:8080/users
     private List<User> GetMapping() {

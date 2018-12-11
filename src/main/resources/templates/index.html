@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Examples</title>
+    <link rel="stylesheet" type="text/css" th:href="@{../../css/style.css}"/>
+</head>
+<body>
+<h1>Welcome</h1>
+<h2 th:utext="${message}">..!..</h2>
+
+
+<input type="button" name="goToList" onclick="location.href='http://localhost:8080/personList'" value="Liste des utilisateurs" />
+
+</body>
+
+</html>
